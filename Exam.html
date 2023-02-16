@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examen à rendre sur le HTML">
+    <title>Examen final HTML</title>
+    <link rel="icon" href="html.svg">
+</head>
+
+<body>
+    <header>
+        <h1>HTML dans sa globalité</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Bonjour</h2>
+            <p>Je m'appelle <strong>Valentin Gautier</strong> j'ai actuellement <em>21ans</em>. J'ai commencé ma
+                formation de
+                developpeur web&mobile le 30Janvier 2023. Mes centres d'interets sont le <strong>sport</strong> en
+                général! Mon
+                ambition à l'avenir est donc d'obtenir ce diplome en developpement web, l'examen se déroule au début du
+                mois
+                d'Octobre. Après ca je souhaiterais à l'avenir, ouvrir mon entreprise.</p>
+        </article>
+        <hr>
+        <article>
+            <h2>Mon parcours</h2>
+            <ul>
+                <li>En 2022 j'ai passé mon BTS CRCI (Conception réalisation chaudronnerie industriel)</li>
+                <li>En 2020 j'ai obtenu mon bac professionel toujours dans le meme secteur</li>
+                <li>En 2019 j'ai obtenu mon CAP,également dans le meme domaine</li>
+            </ul>
+
+        </article>
+        <hr>
+        <section>
+            <h2>Mes compétences en web</h2>
+
+            <table border>
+                <thead>
+                    <tr>
+                        <td>Technologie</td>
+                        <td>Débutant</td>
+                        <td>Moyen</td>
+                        <td>Bon</td>
+                        <td>Expert</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="../html.svg" alt="ImageHTML"></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="../css.svg" alt="ImageCSS"></td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="../js.svg" alt="ImageJS"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="../php.svg" alt="ImagePHP"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="../sql.svg" alt="ImageSQL"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+      
+
+
+        <article>
+            <h2>Me contacter</h2>
+            <p>Pour me contacter par écrit voici le lien de mon adresse <a href="mailto:valentingautier8@gmail.com"
+                    rel="nofollow" target="_blank" title="lienmail">Mail.</a> Si vous souhaitez me contacter
+                directement, voici
+                mon numéro de <a href="tel:+670794677" target="_blank" title="lientelephone"
+                    rel="nofollow">Téléphone</a></p>
+        </article>
+        <hr>
+
+        <h3>Formulaire de contact</h3>
+        <form action="#" method="get">
+            <input type="radio" id="Homme" name="selection" value="Homme">
+            <label for="Homme">Homme</label>
+            <div>
+                <input type="radio" id="Femme" name="selection" value="Femme">
+                <label for="Femme">Femme</label>
+            </div>
+            <div>
+                <label for="NomPrenom">Nom et Prénom:</label>
+                <textarea name="Information" id="NomPrenom" rows="1" cols="20">Ex: Didier Deschamps</textarea>
+            </div>
+            <div>
+                <label for="Age">Age:</label>
+                <textarea name="Information" id="Age" rows="1" cols="20">Ex: 52</textarea>
+                <label for="Age">ans</label>
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <textarea name="Information" id="mail" rows="1" cols="20">Ex: prenom@domain.com</textarea>
+            </div>
+            <fieldset>
+                <legend>Sujet:</legend>
+                <div>
+                    <select>
+                        <option>Choisissez</option>
+                        <option value="Sport">Sport</option>
+                        <option value="Autobiographie">Autobiographie</option>
+                        <option value="Voitures">Voitures</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div>
+                <label for="Mail">Votre message:</label>
+            </div>
+            <div>
+                <textarea name="Information" id="Mail" rows="10" cols="30">ex : Madame, Monsieur ...</textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="condition" name="Condition" checked>
+                <label for="condition">En cochant cette case j'accepte les conditions relatives à l'utilisation de
+                    mes
+                    données personelles décrites dans les <a href="#" title="lieninterne">Mentions
+                        legales</a></label>
+            </div>
+            <button type="reset">Envoyer le message</button>
+        </form>
+
+
+    </main>
+    <footer>
+        <p>Fin examen HTML</p>
+    </footer>
+</body>
+
+</html>
